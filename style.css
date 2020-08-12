@@ -1,14 +1,14 @@
 h1 {
   font: 60px "Bebas Neue", sans-serif;
   color: white;
-  margin-left: 25px;
+  margin-left: 12.5px;
   /* font-variant: small-caps; */
 }
 
 p {
   font: 15px Helvetica, sans-serif;
   color: white;
-  margin-left:25px;
+  margin-left: 12.5px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 .quizbox {
-   margin: 25px;
+   margin: 12.5px;
    width: 25%;
 }
 
