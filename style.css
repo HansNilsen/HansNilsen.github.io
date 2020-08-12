@@ -60,7 +60,7 @@ body {
 .fbox:active {
   background-color: #003366; 
 }
-.fbox:hover + .innerFBOXtext {
+.fbox:hover .innerFBOXtext {
   display: block;
 }
 
