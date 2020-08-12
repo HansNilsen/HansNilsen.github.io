@@ -62,6 +62,6 @@ body {
 .fbox.two{
   background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
 }
-.fbox.one:hover{
+.fbox.two:hover{
   background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
 }
