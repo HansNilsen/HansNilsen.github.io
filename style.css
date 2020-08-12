@@ -61,6 +61,9 @@ body {
 .fbox:active {
   background-color: #003366; 
 }
+.fbox:active .innerFBOXtext {
+  display: block; 
+}
 .fbox:hover .innerFBOXtext {
   display: block;
 }
