@@ -22,8 +22,9 @@ body {
 }
 
 .quizbox {
-   margin: 25px;
-   width: 40%;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   width: 25%;
 }
 
 .quizpic {
