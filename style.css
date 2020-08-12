@@ -1,0 +1,41 @@
+section {
+    /*background-color: rgba(0, 0, 0, 0.701961);
+    width: 400px;
+    height: 400px;
+    */
+    
+}
+
+
+.grid-container {
+  
+  display: inline-grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  background-color: red;
+}
+
+.quizpic {
+    
+    top: 120px;
+    left: 120px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: contain;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWlkV4njzZ_DLOSmq9H3RvnfM194Za0Y6m04yJ1W0a1DiiI1NYMrOdjwtC6FHByViHr6t_Gk1T&usqp=CAc');
+    background-color: red;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transition: all .4s ease-in-out;
+    
+}
+
+    div:hover {
+        -webkit-transform: scale(1.2) rotate(0.01deg);
+        transform: scale(1.2) rotate(0.01deg);
+        background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/sites/6/2015/11/rebel-symbol.jpg');
+    }
