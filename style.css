@@ -65,3 +65,87 @@ body {
 .fbox.two:hover{
   background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
 }
+
+.fbox.three{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architizer.png");
+}
+.fbox.three:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architizer.png");
+}
+
+.fbox.four{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/car-and-driver.png");
+}
+.fbox.four:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/car-and-driver.png");
+}
+
+.fbox.five{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/contemporist.png");
+}
+.fbox.five:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/contemporist.png");
+}
+
+.fbox.six{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/dwell.png");
+}
+.fbox.six:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/dwell.png");
+}
+
+.fbox.seven{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/houzz.png");
+}
+.fbox.seven:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/houzz.png");
+}
+
+.fbox.eight{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/hypebeast.png");
+}
+.fbox.eight:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/hypebeast.png");
+}
+
+.fbox.nine{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/interior-design.png");
+}
+.fbox.nine:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/interior-design.png");
+}
+
+.fbox.ten{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/los-angeles-times.png");
+}
+.fbox.ten:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/los-angeles-times.png");
+}
+
+.fbox.eleven{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/metropolitan-home.png");
+}
+.fbox.eleven:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/metropolitan-home.png");
+}
+
+.fbox.twelve{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
+.fbox.twelve:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
+
+.fbox.thirteen{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
+.fbox.thirteen:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
+
+.fbox.fourteen{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
+.fbox.fourteen:hover{
+  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/architectural-digest.png");
+}
