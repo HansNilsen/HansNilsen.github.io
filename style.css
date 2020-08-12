@@ -20,6 +20,15 @@ body {
   padding-bottom: 25px;
 }
 
+.innerFBOXtext{
+  width: 50px;
+  height: 50px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;  
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
