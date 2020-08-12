@@ -22,15 +22,20 @@ body {
 }
 
 .quizbox {
-   margin: 25px; 
+   margin: 25px;
+   width: 40%;
 }
 
 .quizpic {
-    
+    /*
     top: 220px;
     left: 220px;
     width: 260px;
     height: 260px;
+    */
+  
+    width: 100%;
+    padding-top: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
