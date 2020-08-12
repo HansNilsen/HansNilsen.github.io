@@ -25,7 +25,7 @@
     
 }
 
-    div:hover {
+    .quizpic:hover {
         -webkit-transform: scale(1.2) rotate(0.01deg);
         transform: scale(1.2) rotate(0.01deg);
         background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/sites/6/2015/11/rebel-symbol.jpg');
