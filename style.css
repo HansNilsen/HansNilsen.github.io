@@ -7,11 +7,15 @@ p {
   font: 15px Helvetica, sans-serif;
 }
 
+body {
+ background-color: #1f1f1f; 
+}
+
 .grid-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .quizbox {
