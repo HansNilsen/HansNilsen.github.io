@@ -7,6 +7,10 @@
   background-color: red;
 }
 
+.quizbox {
+   margin: 20px; 
+}
+
 .quizpic {
     
     top: 220px;
