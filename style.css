@@ -57,10 +57,10 @@ body {
 .fbox:hover {
   -webkit-transform: scale(1.1) rotate(0.01deg);
   transform: scale(1.1) rotate(0.01deg);
-  background-color: #005234;
+  /* background-color: #005234; */
 }
 .fbox:active {
-  background-color: #003366; 
+  /* background-color: #003366;*/
 }
 .fbox:active .innerFBOXtext {
   display: block; 
