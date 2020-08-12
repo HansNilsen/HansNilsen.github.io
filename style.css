@@ -1,57 +1,51 @@
 h1 {
-  font: 60px "Bebas Neue", sans-serif;
-  color: white;
-  margin-left: 12.5px;
-  /* font-variant: small-caps; */
+  color: #dbdbdb;
+  font: 34px "Times New Roman", sans-serif;
 }
 
 p {
-  font: 15px Helvetica, sans-serif;
-  color: white;
-  margin-left: 12.5px;
+  color: #eeeeee;
+  font: 16px "Times New Roman", serif;
 }
 
 body {
- background-color: #1f1f1f;
- /*margin: 130px;*/
- max-width: 1000px;
-  margin: auto;
+  margin: 40px;
+  max-width: 700px;
+  background-color: black;
 }
 
-.grid-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* background-color: red; */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.fbox {
+  background: black;
+  padding: 1rem;
+  position: relative;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: all .4s ease-in-out;
+}
+.fbox::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.fbox:hover {
+  -webkit-transform: scale(1.1) rotate(0.01deg);
+  transform: scale(1.1) rotate(0.01deg);
+  background-color: blue;
 }
 
-.quizbox {
-   margin: 12.5px;
-   
+.fbox.cat{
+  background-image: url('/home/bitcoin/Desktop/cat.jpg');
 }
-
-.quizpic {
-    
-    top: 220px;
-    left: 220px;
-    width: 260px;
-    height: 260px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-size: contain;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWlkV4njzZ_DLOSmq9H3RvnfM194Za0Y6m04yJ1W0a1DiiI1NYMrOdjwtC6FHByViHr6t_Gk1T&usqp=CAc');
-    background-color: red;
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: transform 0.4s;
-    transition: all .4s ease-in-out;
-    
+.fbox.cat:hover{
+  background-image: url('/home/bitcoin/Desktop/dog.jpg');
 }
-
-    .quizpic:hover {
-        -webkit-transform: scale(1.1) rotate(0.01deg);
-        transform: scale(1.1) rotate(0.01deg);
-        background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/sites/6/2015/11/rebel-symbol.jpg');
-    }
