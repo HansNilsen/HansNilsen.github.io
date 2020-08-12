@@ -42,7 +42,10 @@ body {
 .fbox:hover {
   -webkit-transform: scale(1.1) rotate(0.01deg);
   transform: scale(1.1) rotate(0.01deg);
-  background-color: blue;
+  background-color: #005234;
+}
+.fbox:active {
+  background-color: #003366; 
 }
 
 .fbox.cat{
