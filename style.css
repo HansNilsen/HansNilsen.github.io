@@ -44,8 +44,8 @@ body {
 }
 
 .fbox.cat{
-  background-image: url('/home/bitcoin/Desktop/cat.jpg');
+  background-image: url('cat.jpg');
 }
 .fbox.cat:hover{
-  background-image: url('/home/bitcoin/Desktop/dog.jpg');
+  background-image: url('dog.jpg');
 }
