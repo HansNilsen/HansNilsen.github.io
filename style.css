@@ -86,10 +86,10 @@ body {
 }
 
 .fbox.one{
-  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/arch-daily.png");
+  background-image: url("DND-Front.jpg");
 }
 .fbox.one:hover{
-  background-image: url("https://csstricks-images.s3.us-east-1.amazonaws.com/logos/arch-daily.png");
+  background-image: url("DND.jpg");
 }
 
 .fbox.two{
