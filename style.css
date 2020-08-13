@@ -68,6 +68,13 @@ body {
 .fbox:hover .innerFBOXtext {
   display: block;
 }
+.innerFBOXtext {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: all .4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
 
 .fbox.cat{
   background-image: url('StarWars-Front.jpg');
