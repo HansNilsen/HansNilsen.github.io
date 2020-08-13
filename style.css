@@ -70,10 +70,10 @@ body {
 }
 
 .fbox.cat{
-  background-image: url('SW.jpg');
+  background-image: url('StarWars-Front2.jpg');
 }
 .fbox.cat:hover{
-  background-image: url('SW_BLUR.jpg');
+  background-image: url('StarWars.jpg');
 }
 
 .fbox.one{
