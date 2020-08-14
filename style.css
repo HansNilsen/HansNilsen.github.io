@@ -2,10 +2,13 @@ h1 {
   color: #dbdbdb;
   font: 28px "Bebas Neue", sans-serif;
 }
-
+.h2 {
+  color: #dbbddb;
+  font: 36px "", Helvetica sans-serif;
+}
 p {
   color: #eeeeee;
-  font: 16px "Times New Roman", serif;
+  font: 16px "Segoe UI", serif;
   padding-bottom: 25px;
 }
 
