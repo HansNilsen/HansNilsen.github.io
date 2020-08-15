@@ -1,12 +1,5 @@
+/*
 // DND morality questions
-
-//TWO: Upon trying to enter a village, you are stopped by a sleazy-looking guard at the gate.  He demands you pay a toll before entering.  Which option describes what you would most likely do?
-
-// 1) I'd pay the toll.
-// 2) I'd argue with the guard, but if he won't budge, I'll end up paying.
-// 3) I'd try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.
-// 4) I'd threaten him, then attack him if he refuses to let me through.
-// 5) I'd rally the nearby townsfolk and peasants into a mob, then lead them in a march on the city gates and let the ensuing anarchy clear a path for me.
 
 //THREE: You are returning from an adventure on a relatively safe road, with one expensive and powerful health potion left in your inventory.  You encounter a gravely wounded man who begs you for help.  Which option best describes what you woul do?
 // 1) I'd give him my health potion, without question.
@@ -63,26 +56,46 @@
 // 3) Breaking the law is never acceptable except in extreme circumstances, such as in the face of tyranny, severe oppression, or immediate physical harm to innocent people.
 // 4) Civil disobedience - breaking the law - should be encouraged if it aims to challenge an unjust law, even if that law causes no *physical* harm to anyone.
 
-//ONE: Choose the statement with which you agree the most.
-// 1) Breaking the law is never acceptable.
-// 2) Breaking the law is only acceptable in extreme circumstances.
-// 3) Breaking the law is occasionally acceptable.
-// 4) Breaking the law is generally acceptable.
-// 5) What the law is bears no significance in my decision making.
+//TWO: Upon trying to enter a village, you are stopped by a sleazy-looking guard at the gate.  He demands you pay a toll before entering.  Which option describes what you would most likely do?
+
+// 1) I'd pay the toll.
+// 2) I'd argue with the guard, but if he won't budge, I'll end up paying.
+// 3) I'd try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.
+// 4) I'd threaten him, then attack him if he refuses to let me through.
+// 5) I'd rally the nearby townsfolk and peasants into a mob, then lead them in a march on the city gates and let the ensuing anarchy clear a path for me.
+*/
 
 const questions = [
   {
     "question": "Choose the statement with which you agree the most.",
     "answer1:": "Breaking the law is never acceptable.",
     "answer1Total": "1",
+    "answer2:": "Breaking the law is only acceptable in extreme circumstances.",
+    "answer2Total": "2",
+    "answer3": "Breaking the law is occasionally acceptable.",
+    "answer3Total": "3",
+    "answer4:" "Breaking the law is generally acceptable.",
+    "answer4Total": "4",
+    "answer5:" "What the law is bears no significance in my decision making.",
+    "answer5Total": "5"
   },
   {
-
+    "question": "Upon trying to enter a village, you are stopped by a sleazy-looking guard at the gate.  He demands you pay a toll before entering.  Which option describes what you would most likely do?",
+    "answer1:": "I'd pay the toll.",
+    "answer1Total": "1",
+    "answer2:": "I'd argue with the guard, but if he won't budge, I'll end up paying.",
+    "answer2Total": "2",
+    "answer3": "I'd try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.",
+    "answer3Total": "3",
+    "answer4:" "I'd threaten him, then attack him if he refuses to let me through.",
+    "answer4Total": "4",
+    "answer5:" "I'd rally the nearby townsfolk and peasants into a mob, then lead them in a march on the city gates and let the ensuing anarchy clear a path for me.",
+    "answer5Total": "5"
   }
 ]
 
 
-
+/*
 const questions = [
   {
     "question": "You encounter a man being robbed by a group of thugs.  What do you do?",
@@ -152,3 +165,4 @@ const questions = [
     "answer3Total": "3"
   }
 ]
+*/
