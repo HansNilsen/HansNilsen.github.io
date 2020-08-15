@@ -63,7 +63,7 @@
 // 3) I'd try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.
 // 4) I'd threaten him, then attack him if he refuses to let me through.
 // 5) I'd rally the nearby townsfolk and peasants into a mob, then lead them in a march on the city gates and let the ensuing anarchy clear a path for me.
-*/
+
 
 const questions = [
   {
@@ -93,9 +93,8 @@ const questions = [
     "answer5Total": "5"
   }
 ]
+*/
 
-
-/*
 const questions = [
   {
     "question": "You encounter a man being robbed by a group of thugs.  What do you do?",
@@ -165,4 +164,4 @@ const questions = [
     "answer3Total": "3"
   }
 ]
-*/
+
