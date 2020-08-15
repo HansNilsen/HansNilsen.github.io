@@ -73,7 +73,7 @@ function loadNextQuestion () {
     ////Add the answer score to the score array
     score.push(answerScore);
 
-    selectedAnswersData.push()
+    selectedAnswersData.push();
     
 
     const totalScore = score.reduce((total, currentNum) => total + currentNum);
