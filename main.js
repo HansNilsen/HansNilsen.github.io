@@ -52,11 +52,11 @@ function generateQuestions (index) {
     option3.setAttribute('data-total', `${option3Total}`);
     option4.setAttribute('data-total', `${option4Total}`);
     option5.setAttribute('data-total', `${option5Total}`);
-    option1.innerHTML = `${question.answer1}`
-    option2.innerHTML = `${question.answer2}`
-    option3.innerHTML = `${question.answer3}`
-    option4.innerHTML = `${question.answer4}`
-    option5.innerHTML = `${quetsion.answer5}`
+    option1.innerHTML = `${question.answer1}`;
+    option2.innerHTML = `${question.answer2}`;
+    option3.innerHTML = `${question.answer3}`;
+    option4.innerHTML = `${question.answer4}`;
+    option5.innerHTML = `${quetsion.answer5}`;
 }
 
 
