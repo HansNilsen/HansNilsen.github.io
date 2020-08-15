@@ -73,7 +73,7 @@ const questions = [
     "answer2": "Breaking the law is only acceptable in extreme circumstances.",
     "answer2Total": "2",
     "answer3": "Breaking the law is occasionally acceptable.",
-    "answer3Total": "3"
+    "answer3Total": "3",
     "answer4": "Breaking the law is generally acceptable.",
     "answer4Total": "4",
     "answer5": "What the law is bears no significance in my decision making.",
@@ -86,7 +86,7 @@ const questions = [
     "answer2": "I\'d argue with the guard, but if he won\'t budge, I\'ll end up paying.",
     "answer2Total": "2",
     "answer3": "I\'d try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.",
-    "answer3Total": "3"
+    "answer3Total": "3",
     "answer4": "I\'d threaten him, then attack him if he refuses to let me through.",
     "answer4Total": "4",
     "answer5": "I\'d rally the nearby townsfolk and peasants into a mob, then lead them in a march on the city gates and let the ensuing anarchy clear a path for me.",
