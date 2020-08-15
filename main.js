@@ -25,6 +25,8 @@ const questionEl = document.querySelector('.question');
 const option1 = document.querySelector('.option1');
 const option2 = document.querySelector('.option2');
 const option3 = document.querySelector('.option3');
+const option4 = document.querySelector('.option5');
+const option5 = document.querySelector('.option5');
 const nextButton = document.querySelector('.next');
 const previousButton = document.querySelector('.previous');
 const restartButton = document.querySelector('.restart');
@@ -37,14 +39,20 @@ function generateQuestions (index) {
     const option1Total = questions[index].answer1Total;
     const option2Total = questions[index].answer2Total;
     const option3Total = questions[index].answer3Total;
+    const option4Total = questions[index].answer4Total;
+    const option5Total = questions[index].answer5Total;
     //Populate html elements 
     questionEl.innerHTML = `${index + 1}. ${question.question}`
     option1.setAttribute('data-total', `${option1Total}`);
     option2.setAttribute('data-total', `${option2Total}`);
     option3.setAttribute('data-total', `${option3Total}`);
+    option4.setAttribute('data-total', `${option4Total}`);
+    option5.setAttribute('data-total', `${option5Total}`);
     option1.innerHTML = `${question.answer1}`
     option2.innerHTML = `${question.answer2}`
     option3.innerHTML = `${question.answer3}`
+    option4.innerHTML = `${question.answer4}`
+    option5.innerHTML = `${question.answer5}`
 }
 
 
