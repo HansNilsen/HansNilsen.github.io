@@ -18,21 +18,15 @@
 let currentQuestion = 0;
 let score = [];
 let selectedAnswersData = [];
-// The number of questions
 const totalQuestions =questions.length;
 
 const container = document.querySelector('.quiz-container');
 const questionEl = document.querySelector('.question');
-// The three quiz options, I guess
 const option1 = document.querySelector('.option1');
 const option2 = document.querySelector('.option2');
 const option3 = document.querySelector('.option3');
-const option4 = document.querySelector('.option4');
-const option5 = document.querySelector('.option5');
-// The buttons for next and prev
 const nextButton = document.querySelector('.next');
 const previousButton = document.querySelector('.previous');
-// To restart the quiz
 const restartButton = document.querySelector('.restart');
 const result = document.querySelector('.result');
 
@@ -43,20 +37,14 @@ function generateQuestions (index) {
     const option1Total = questions[index].answer1Total;
     const option2Total = questions[index].answer2Total;
     const option3Total = questions[index].answer3Total;
-    const option4Total = questions[index].answer4Total;
-    const option5Total = questions[index].answer5Total;
     //Populate html elements 
     questionEl.innerHTML = `${index + 1}. ${question.question}`
     option1.setAttribute('data-total', `${option1Total}`);
     option2.setAttribute('data-total', `${option2Total}`);
     option3.setAttribute('data-total', `${option3Total}`);
-    option4.setAttribute('data-total', `${option4Total}`);
-    option5.setAttribute('data-total', `${option5Total}`);
     option1.innerHTML = `${question.answer1}`
     option2.innerHTML = `${question.answer2}`
     option3.innerHTML = `${question.answer3}`
-    option4.innerHTML = `${question.answer4}`
-    option5.innerHTML = `${question.answer5}`
 }
 
 
@@ -64,7 +52,7 @@ function loadNextQuestion () {
     const selectedOption = document.querySelector('input[type="radio"]:checked');
     //Check if there is a radio input checked
     if(!selectedOption) {
-        alert('Nuh-uh - you gotta answer, pal.');
+        alert('Please select your answer!');
         return;
     }
     //Get value of selected radio
