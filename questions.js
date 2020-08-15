@@ -81,11 +81,11 @@ const questions = [
   },
   {
     "question": "Upon trying to enter a village, you are stopped by a sleazy-looking guard at the gate.  He demands you pay a toll before entering.  Which option describes what you would most likely do?",
-    "answer1": "I'd pay the toll.",
+    "answer1": "I\'d pay the toll.",
     "answer1Total": "1",
-    "answer2": "I'd argue with the guard, but if he won't budge, I'll end up paying.",
+    "answer2": "I\'d argue with the guard, but if he won\'t budge, I\'ll end up paying.",
     "answer2Total": "2",
-    "answer3: "I'd try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.",
+    "answer3": "I\'d try and bribe the guard or use a charisma check to convince him to waive the toll for an absolute stud like me.",
     "answer3Total": "3"
     //"answer4": "I'd threaten him, then attack him if he refuses to let me through.",
     //"answer4Total": "4",
