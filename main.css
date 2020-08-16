@@ -24,7 +24,7 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(360deg, transparent, black);
+  background: linear-gradient(360deg, gray, black);
   min-height: 100vh;
 }
 .title {
