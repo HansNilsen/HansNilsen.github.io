@@ -17,8 +17,7 @@ body {
 .quiz-container {
   /*box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);*/
   text-shadow: 1px 1px white;
-  /* padding: 3rem; */
-  padding: 25px;
+  padding: 3rem;
   text-shadow: 0 1px #00000010;
   width: 80%;
   min-width: 300px;
@@ -41,7 +40,7 @@ body {
   text-transform: uppercase;
 }
 .question {
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   font-family: "Times New Roman", serif;
   font-size: 1.0rem;
   color: #dbdbdb;
