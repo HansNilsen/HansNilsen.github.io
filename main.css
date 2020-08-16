@@ -19,8 +19,8 @@ body {
   text-shadow: 1px 1px white;
   padding: 3rem;
   text-shadow: 0 1px #00000010;
-  width: 60%;
-  min-width: 500px;
+  width: 80%;
+  min-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: column;
